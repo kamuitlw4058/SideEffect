@@ -1,3 +1,6 @@
 [submodule "Assets/Plugins/MetaTable"]
 	path = Assets/Plugins/MetaTable
 	url = http://192.168.13.99:9980/ugmax/MetaTable.git
+[submodule "Assets/Plugins/Pangoo"]
+	path = Assets/Plugins/Pangoo
+	url = http://192.168.13.99:9980/ugmax/Pangoo.git
