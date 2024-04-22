@@ -1,0 +1,15 @@
+Library/
+Temp/
+.vscode/
+Logs/
+UserSettings/
+obj/
+ABs/
+Output/
+Build/
+
+*.csproj
+*.sln
+.vsconfig
+BuildWithoutLight/
+Assets/StreamingAssets/
