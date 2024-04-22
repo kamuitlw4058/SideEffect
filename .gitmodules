@@ -1,0 +1,3 @@
+[submodule "Assets/Plugins/MetaTable"]
+	path = Assets/Plugins/MetaTable
+	url = http://192.168.13.99:9980/ugmax/MetaTable.git
