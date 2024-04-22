@@ -1,0 +1,20 @@
+{
+    "name": "SideEffect",
+    "rootNamespace": "",
+    "references": [
+        "GUID:99a1644ff461dfb46b4e42e62991f370",
+        "GUID:363c5eb08ff8e6a439b85e37b8c20d96",
+        "GUID:8a4be66b38ef05c48a38e50656058d66",
+        "GUID:f44bf595d7886ec4b9c6708ab398aaad",
+        "GUID:e661b1f563bd2ce4ea63fa6862343c5e"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

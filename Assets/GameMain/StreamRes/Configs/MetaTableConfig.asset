@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e658555fcd96924fbf076e550e054b3, type: 3}
+  m_Name: MetaTableConfig
+  m_EditorClassIdentifier: 
+  Namespace: SideEffect
+  PackageDir: Assets/GameMain
+  ScriptDir: Runtime
+  InterfaceDir: Interface
+  EditorDir: Editor
+  StreamResDir: StreamRes
+  UsingNamespace:
+  - System
+  - System.IO
+  - System.Collections.Generic
+  - System.Linq
+  - LitJson
+  - UnityEngine
+  - Sirenix.OdinInspector
+  - System.Xml.Serialization
+  - Pangoo.Common
+  - MetaTable
+  Entries:
+  - Config: {fileID: 11400000}
+    MetaTableType: 1
+    TableName: 
+    RefConfig: {fileID: 11400000, guid: f846b89c61d501046b846631595302ad, type: 2}
+    RefTableName: AssetPath
+    Columns: []

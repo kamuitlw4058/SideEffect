@@ -1,0 +1,23 @@
+{
+    "name": "SideEffect.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:57c90a09c4360424987b734589ec045d",
+        "GUID:3f97695501cf7644c8b7fb3f32f8cb83",
+        "GUID:8a4be66b38ef05c48a38e50656058d66",
+        "GUID:e661b1f563bd2ce4ea63fa6862343c5e",
+        "GUID:e06a2abb7a955494ba4d4c9d514766a2",
+        "GUID:99a1644ff461dfb46b4e42e62991f370"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
