@@ -26,6 +26,8 @@ public class ProcedureIdle : PangooProcedureBase
         container.Start();
 
         PangooEntry.Service.mainService = container;
+
+        container.Cursor.CursorType = Pangoo.Core.Common.CursorTypeEnum.Show;
     }
 
 

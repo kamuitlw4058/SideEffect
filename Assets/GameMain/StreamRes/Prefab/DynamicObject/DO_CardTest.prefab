@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5129661283105274352}
   - component: {fileID: 1170080638089919913}
   - component: {fileID: 4895615096991412918}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: DO_CardTest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -53,8 +53,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0386109, y: 0.022406794, z: 0.00028759957}
-  m_Center: {x: 0.00930545, y: -0.0003344011, z: 0.00017483198}
+  m_Size: {x: 0.88612735, y: 0.47277004, z: 0.01808452}
+  m_Center: {x: 0.21121073, y: -0.010076731, z: 0.0065350207}
 --- !u!114 &4895615096991412918
 MonoBehaviour:
   m_ObjectHideFlags: 0
