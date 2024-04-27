@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e19e1e7c523c1945930eeb95a9922d4, type: 3}
+  m_Name: aee15ecbdf804be18838f77d35eb39ce
+  m_EditorClassIdentifier: 
+  Row:
+    Uuid: aee15ecbdf804be18838f77d35eb39ce
+    Name: "\u684C\u9762\u573A\u666F"
+    Id: 0
+    SectionJumpByScene: 
+    DynamicSceneUuids: 
+    KeepSceneUuids: 
+    InitSceneUuids: 
+    DynamicObjectUuids: 1dda32ff1acd44e18ebe71f88b6d19e8
+    InitedInstructionUuids: 
+    EditorInitedInstructionUuids: 
+    SceneUuids: ac5601a7603447c1ab8aa5bc488fe676
+    StateVariableUuid: 
+    PlayerBirthPlaceList: 
+    PlayerCharacterUuid: 

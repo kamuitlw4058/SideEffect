@@ -36,3 +36,27 @@ MonoBehaviour:
     RefConfig: {fileID: 11400000, guid: f846b89c61d501046b846631595302ad, type: 2}
     RefTableName: AssetPath
     Columns: []
+  - Config: {fileID: 11400000}
+    MetaTableType: 1
+    TableName: 
+    RefConfig: {fileID: 11400000, guid: f846b89c61d501046b846631595302ad, type: 2}
+    RefTableName: DynamicObject
+    Columns: []
+  - Config: {fileID: 11400000}
+    MetaTableType: 1
+    TableName: 
+    RefConfig: {fileID: 11400000, guid: f846b89c61d501046b846631595302ad, type: 2}
+    RefTableName: GameSection
+    Columns: []
+  - Config: {fileID: 11400000}
+    MetaTableType: 1
+    TableName: 
+    RefConfig: {fileID: 11400000, guid: f846b89c61d501046b846631595302ad, type: 2}
+    RefTableName: StaticScene
+    Columns: []
+  - Config: {fileID: 11400000}
+    MetaTableType: 1
+    TableName: 
+    RefConfig: {fileID: 11400000, guid: f846b89c61d501046b846631595302ad, type: 2}
+    RefTableName: Variables
+    Columns: []

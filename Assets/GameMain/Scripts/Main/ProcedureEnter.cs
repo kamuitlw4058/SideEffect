@@ -7,31 +7,31 @@ using UnityGameFramework.Runtime;
 using ProcedureOwner = GameFramework.Fsm.IFsm<GameFramework.Procedure.IProcedureManager>;
 using Pangoo.Core.Services;
 
-namespace SideEffect
+
+public class ProcedureIdle : PangooProcedureBase
 {
-    public class ProcedureEnter : PangooProcedureBase
+
+    bool initBool;
+    GameMainConfig packageConfig;
+    bool Created;
+
+    MainService container = null;
+
+    protected override void OnEnter(ProcedureOwner procedureOwner)
     {
+        Log.Info($"Enter Idle");
+        container = new MainService();
+        container.Init();
+        container.Awake();
+        container.Start();
 
-        GameMainConfig packageConfig;
-
-        SideEffectMainService container = null;
-
-        protected override void OnEnter(ProcedureOwner procedureOwner)
-        {
-            Log.Info($"Enter Idle");
-            container = new SideEffectMainService();
-            container.Init();
-            container.Awake();
-            container.Start();
-
-            PangooEntry.Service.SideEffectMainSrv = container;
-        }
-
-
-        protected override void OnUpdate(ProcedureOwner procedureOwner, float elapseSeconds, float realElapseSeconds)
-        {
-            container.Update();
-        }
-
+        PangooEntry.Service.mainService = container;
     }
+
+
+    protected override void OnUpdate(ProcedureOwner procedureOwner, float elapseSeconds, float realElapseSeconds)
+    {
+        container.Update();
+    }
+
 }

@@ -18,11 +18,12 @@ MonoBehaviour:
   ScriptsMainDir: Scripts/Main
   MainNamespace: SideEffect
   SceneBaseDir: 
-  EntryProcedure: SideEffect.ProcedureEnter
-  EnterGameSectionUuid: 
-  SkipMainMenu: 0
+  EntryProcedure: ProcedureIdle
+  EnterGameSectionUuid: aee15ecbdf804be18838f77d35eb39ce
+  SkipMainMenu: 1
   CursorOnOffKeyCode: 0
   CurrentGameSectionVariableUuid: 
+  DefaultAssetPathUuid: 
   GameSectionInitStateVariableUuid: 
   DefaultPlayer: 
   DefaultInteractRadian: 0.45
