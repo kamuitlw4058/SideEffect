@@ -21,7 +21,7 @@ MonoBehaviour:
     AssetPathUuid: f47b3634f80f45ce913984bfa3a078a0
     LoadSceneUuids: 
     UseSceneFootstep: 0
-    Footsetp: 
+    Footsetp: '{"FootList":null,"volume":0.0,"IntervalRange":"0|0","IntervMinIntervalalRange":0.0}'
     Position: {x: 0, y: 0, z: 0}
     Rotation: {x: 0, y: 0, z: 0}
     ShowOnNoPlayerEnter: 0
