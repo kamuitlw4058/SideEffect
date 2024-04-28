@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dc1ec217d99e5e449d07113e6b2bcde, type: 3}
+  m_Name: 5f7e3407b71c4f6cab78236d01cc3116
+  m_EditorClassIdentifier: 
+  Row:
+    Uuid: 5f7e3407b71c4f6cab78236d01cc3116
+    Name: "\u69FD\u4F4D"
+    Id: 0
+    NameCn: 
+    ModelList: 
+    Space: 
+    Position: {x: 2, y: 4.501, z: 0}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+    UseHotspot: 0
+    DefaultHideHotspot: 0
+    HotspotRadius: 0
+    HotspotOffset: {x: 0, y: 0, z: 0}
+    DirectInstructions: 
+    SubDynamicObject: 
+    InteractRadius: 0
+    InteractOffset: {x: 0, y: 0, z: 0}
+    InteractRadian: 0
+    InteractTarget: Self
+    DefaultHideModel: 0
+    AssetPathUuid: 93d9dc2de50348dd974eff0287355ee7
+    DefaultDisableInteract: 0
+    TriggerEventUuids: 
+    HotspotUuids: 
+    PreviewName: 
+    PreviewDesc: 
+    StateSubDynamicObject: 
+    StateVariableUuid: Default
+    PreviewRotation: {x: 0, y: 0, z: 0}
+    PreviewScale: {x: 0, y: 0, z: 0}
+    SubObjectTriggerList: 
+    MouseInteractList: 
+    ColliderTriggerStayTimeout: 0
+    ColliderTriggerStayExitDelay: 0
+    TimelineHelperList: 
+    ColliderTriggerType: 
+    ColliderTriggerManualList: 
+    PreviewRotationUp: {x: 0, y: 0, z: 0}

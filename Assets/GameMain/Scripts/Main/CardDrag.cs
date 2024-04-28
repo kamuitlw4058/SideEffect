@@ -8,10 +8,22 @@ using UnityEditor;
 
 public class CardDrag : BaseImmersed, IPointerEnterHandler, IPointerClickHandler, IPointerExitHandler, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    Camera MainCamera;
+    public Camera MainCamera;
+
+    public Transform Target;
+
+    public Rigidbody cardRigidbody;
+
+    public TargetSlot Slot;
     // Start is called before the first frame update
     void Start()
     {
+        cardRigidbody = GetComponent<Rigidbody>();
+        if (MainCamera == null)
+        {
+            MainCamera = ShortcutMainCamera.Instance;
+        }
+
 
     }
 
@@ -19,30 +31,6 @@ public class CardDrag : BaseImmersed, IPointerEnterHandler, IPointerClickHandler
     void Update()
     {
 
-    }
-    private void OnDrawGizmos()
-    {
-        var oldColor = Gizmos.color;
-        Gizmos.color = Color.red;
-
-        if (MainCamera == null)
-        {
-            MainCamera = ShortcutMainCamera.Instance;
-        }
-
-        var mouseRay = MainCamera.ScreenPointToRay(Input.mousePosition);
-        // Gizmos.DrawLine(mouseRay.origin, mouseRay.origin + (mouseRay.direction * 20));
-
-        RaycastHit hitInfo;
-        if (Physics.Raycast(mouseRay, out hitInfo, 20, LayerMask.GetMask("Table")))
-        {
-            Gizmos.DrawLine(mouseRay.origin, hitInfo.point);
-            Gizmos.DrawSphere(hitInfo.point + hitInfo.normal.normalized * 0.1f, 0.1f);
-
-        }
-
-
-        Gizmos.color = oldColor;
     }
 
     public void OnPointerEnter(PointerEventData eventData)
@@ -60,10 +48,34 @@ public class CardDrag : BaseImmersed, IPointerEnterHandler, IPointerClickHandler
         Debug.Log($"OnPointerExit");
     }
 
+
+    private void OnTriggerEnter(Collider other)
+    {
+        Debug.Log($"OnTriggerEnter.:{other.gameObject.name}");
+        if (other.gameObject.layer == LayerMask.NameToLayer("Target"))
+        {
+            Target = other.transform;
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        Debug.Log($"OnTriggerExit.:{other.gameObject.name}");
+        if (other.gameObject.layer == LayerMask.NameToLayer("Target") && other.gameObject.transform == Target)
+        {
+            Target = null;
+        }
+    }
     public void OnBeginDrag(PointerEventData eventData)
     {
         Debug.Log($"OnBeginDrag");
+        if (cardRigidbody != null)
+        {
+            cardRigidbody.isKinematic = true;
+        }
     }
+
+
 
     public void OnDrag(PointerEventData eventData)
     {
@@ -77,13 +89,40 @@ public class CardDrag : BaseImmersed, IPointerEnterHandler, IPointerClickHandler
             transform.position = hitInfo.point + hitInfo.normal.normalized * 0.1f;
         }
 
-
-        // Gizmos.DrawLine(mouseRay.origin, mouseRay.origin + (mouseRay.direction * 20));
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
         Debug.Log($"OnEndDrag");
+        if (Target != null)
+        {
+            transform.position = Target.position;
+            var TargetSlot = Target.GetComponent<TargetSlot>();
+            if (TargetSlot != null)
+            {
+
+                if (Slot != null)
+                {
+                    Slot.CardDragInstance = null;
+                }
+                Slot = TargetSlot;
+                TargetSlot.CardDragInstance = this;
+            }
+        }
+        else
+        {
+            if (Slot != null)
+            {
+                Slot.CardDragInstance = null;
+            }
+        }
+
+        if (cardRigidbody != null)
+        {
+            cardRigidbody.isKinematic = false;
+        }
+
+
     }
 }
 

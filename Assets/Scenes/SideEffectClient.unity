@@ -223,7 +223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_EventMask:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 1536
   m_MaxRayIntersections: 0
 --- !u!20 &1050961646
 Camera:
@@ -286,7 +286,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.17704543, y: 0.68458384, z: -0.1770454, w: 0.6845837}
   m_LocalPosition: {x: -9.202293, y: 10.443668, z: -0.14111948}
-  m_LocalScale: {x: 120.659195, y: 120.65918, z: 120.65918}
+  m_LocalScale: {x: 120.659164, y: 120.659164, z: 120.65915}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -373,7 +373,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: e2126b370bafed34a8bdf7ee30418c19, type: 2}
     - target: {fileID: 5105436992196314423, guid: d20a76b5da3eaf446bfc33d1a30eaaa2, type: 3}
       propertyPath: TableOverviews.Array.size
-      value: 6
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5105436992196314423, guid: d20a76b5da3eaf446bfc33d1a30eaaa2, type: 3}
       propertyPath: TableOverviews.Array.data[0]
@@ -390,22 +390,30 @@ PrefabInstance:
     - target: {fileID: 5105436992196314423, guid: d20a76b5da3eaf446bfc33d1a30eaaa2, type: 3}
       propertyPath: TableOverviews.Array.data[3]
       value: 
-      objectReference: {fileID: 11400000, guid: 19b901ea967077e4989ccd9ae830cd49, type: 2}
+      objectReference: {fileID: 11400000, guid: d50b809e008bd0c4ab1be09002dfd070, type: 2}
     - target: {fileID: 5105436992196314423, guid: d20a76b5da3eaf446bfc33d1a30eaaa2, type: 3}
       propertyPath: TableOverviews.Array.data[4]
       value: 
-      objectReference: {fileID: 11400000, guid: 00cb7fe99a7f4a34aa765a2affa54325, type: 2}
+      objectReference: {fileID: 11400000, guid: 19b901ea967077e4989ccd9ae830cd49, type: 2}
     - target: {fileID: 5105436992196314423, guid: d20a76b5da3eaf446bfc33d1a30eaaa2, type: 3}
       propertyPath: TableOverviews.Array.data[5]
       value: 
-      objectReference: {fileID: 11400000, guid: adcb511cf691c864b90dec79a7724634, type: 2}
+      objectReference: {fileID: 11400000, guid: 00cb7fe99a7f4a34aa765a2affa54325, type: 2}
     - target: {fileID: 5105436992196314423, guid: d20a76b5da3eaf446bfc33d1a30eaaa2, type: 3}
       propertyPath: TableOverviews.Array.data[6]
       value: 
       objectReference: {fileID: 11400000, guid: adcb511cf691c864b90dec79a7724634, type: 2}
+    - target: {fileID: 5105436992196314423, guid: d20a76b5da3eaf446bfc33d1a30eaaa2, type: 3}
+      propertyPath: TableOverviews.Array.data[7]
+      value: 
+      objectReference: {fileID: 11400000, guid: adcb511cf691c864b90dec79a7724634, type: 2}
     - target: {fileID: 5559590274014051954, guid: d20a76b5da3eaf446bfc33d1a30eaaa2, type: 3}
       propertyPath: GameInfoItems.Array.size
-      value: 3
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5559590274014051954, guid: d20a76b5da3eaf446bfc33d1a30eaaa2, type: 3}
+      propertyPath: GameInfoItems.Array.data[3].Enable
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5559590274014051954, guid: d20a76b5da3eaf446bfc33d1a30eaaa2, type: 3}
       propertyPath: GameInfoItems.Array.data[3].GameInfoTypeName

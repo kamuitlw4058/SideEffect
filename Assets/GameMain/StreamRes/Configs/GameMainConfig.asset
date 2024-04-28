@@ -38,7 +38,7 @@ MonoBehaviour:
     MinInterval: 0
   RunKeyCode: 304
   DynamicObjectStateVariableUuid: 
-  DefaultSubtitlePanelUuid: 
+  DefaultSubtitlePanelUuid: 7fc554f5e72948e094bcd56fafed92f0
   DefaultMainMenuPanelUuid: 
   PreviewPanelUuid: 
   DialoguePanelUuid: 
