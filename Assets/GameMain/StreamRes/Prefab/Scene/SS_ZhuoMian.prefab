@@ -23,16 +23,16 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 70007141822806999}
-  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 3847205395646030649}
   - {fileID: 486604707700424660}
+  - {fileID: 3847205395646030649}
   - {fileID: 7941355374531449349}
   m_Father: {fileID: 0}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3086650492522055361
 GameObject:
@@ -58,13 +58,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3086650492522055361}
-  serializedVersion: 2
   m_LocalRotation: {x: 0.76720893, y: 0.20678678, z: -0.30082038, w: 0.5273867}
   m_LocalPosition: {x: 2.79, y: 6.18, z: 3.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1812445354770855129}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 110.99, y: 42.82, z: 0}
 --- !u!108 &5311676751244010469
 Light:
@@ -152,13 +152,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6362274386306730035}
-  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 2.79, y: 6.59, z: 3.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1812445354770855129}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!108 &6082519806860777895
 Light:
@@ -227,7 +227,6 @@ PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    serializedVersion: 3
     m_TransformParent: {fileID: 1812445354770855129}
     m_Modifications:
     - target: {fileID: 171518628340796279, guid: 848ad684169c596479e404d268bc0603, type: 3}
@@ -293,6 +292,10 @@ PrefabInstance:
     - target: {fileID: 4394765665714029956, guid: 848ad684169c596479e404d268bc0603, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4754972287728342421, guid: 848ad684169c596479e404d268bc0603, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4754972287728342421, guid: 848ad684169c596479e404d268bc0603, type: 3}
       propertyPath: m_LocalPosition.x
@@ -367,22 +370,13 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects:
-    - {fileID: 2120987395085833822, guid: 848ad684169c596479e404d268bc0603, type: 3}
-    - {fileID: 1890751366942955917, guid: 848ad684169c596479e404d268bc0603, type: 3}
-    - {fileID: 5088745924638876690, guid: 848ad684169c596479e404d268bc0603, type: 3}
-    m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 7771014550454159971, guid: 848ad684169c596479e404d268bc0603, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6488703590716086876}
   m_SourcePrefab: {fileID: 100100000, guid: 848ad684169c596479e404d268bc0603, type: 3}
 --- !u!1 &2252145581765639375 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7771014550454159971, guid: 848ad684169c596479e404d268bc0603, type: 3}
   m_PrefabInstance: {fileID: 8401758634864637612}
   m_PrefabAsset: {fileID: 0}
---- !u!65 &6488703590716086876
+--- !u!65 &4780452118779484830
 BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -390,17 +384,9 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2252145581765639375}
   m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 2
   m_Size: {x: 0.022187542, y: 0.020663576, z: 0.010639452}
   m_Center: {x: -6.19655e-10, y: -1.9295739e-10, z: -0.0052462798}
 --- !u!4 &3847205395646030649 stripped

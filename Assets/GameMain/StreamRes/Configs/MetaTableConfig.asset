@@ -58,11 +58,23 @@ MonoBehaviour:
     MetaTableType: 1
     TableName: 
     RefConfig: {fileID: 11400000, guid: f846b89c61d501046b846631595302ad, type: 2}
-    RefTableName: Variables
+    RefTableName: SimpleUI
     Columns: []
   - Config: {fileID: 11400000}
     MetaTableType: 1
     TableName: 
     RefConfig: {fileID: 11400000, guid: f846b89c61d501046b846631595302ad, type: 2}
-    RefTableName: SimpleUI
+    RefTableName: Clue
+    Columns: []
+  - Config: {fileID: 11400000}
+    MetaTableType: 1
+    TableName: 
+    RefConfig: {fileID: 11400000, guid: f846b89c61d501046b846631595302ad, type: 2}
+    RefTableName: Cases
+    Columns: []
+  - Config: {fileID: 11400000}
+    MetaTableType: 1
+    TableName: 
+    RefConfig: {fileID: 11400000, guid: f846b89c61d501046b846631595302ad, type: 2}
+    RefTableName: Variables
     Columns: []
