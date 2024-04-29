@@ -21,7 +21,7 @@ MonoBehaviour:
     CaseVariables: 
     CaseStates: 
     CaseClues: bb74388f91e94ae99030ac9c8136d084|a4aae4d729444c12b27d049592d58f72|df529a0390f2497db5bb5f1427c8bd4d
-    CluesIntegrate: '[{"Targets":["bb74388f91e94ae99030ac9c8136d084","a4aae4d729444c12b27d049592d58f72"],"Results":[{"ResultType":1,"VariableUuid":null,"VariableValue":false,"ClueUuid":"df529a0390f2497db5bb5f1427c8bd4d"}]}]'
+    CluesIntegrate: '[{"FlipCombine":false,"Targets":["bb74388f91e94ae99030ac9c8136d084","a4aae4d729444c12b27d049592d58f72"],"Results":[{"ResultType":1,"VariableUuid":null,"VariableValue":false,"ClueUuid":"df529a0390f2497db5bb5f1427c8bd4d"}]}]'
     StateModelOnOff: 
     CaseShowType: 
     CaseVariableState: 

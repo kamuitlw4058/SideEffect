@@ -100,11 +100,15 @@ public class CardDrag : BaseImmersed, IPointerEnterHandler, IPointerClickHandler
             Target = null;
         }
     }
+
+    public Vector3 BeginDragPosition;
+
     public void OnBeginDrag(PointerEventData eventData)
     {
         Debug.Log($"OnBeginDrag");
         IsDraging = true;
         gameObject.layer = LayerMask.NameToLayer("Drag");
+        BeginDragPosition = transform.position;
     }
 
 
@@ -133,6 +137,12 @@ public class CardDrag : BaseImmersed, IPointerEnterHandler, IPointerClickHandler
             var TargetSlot = Target.GetComponent<TargetSlot>();
             if (TargetSlot != null)
             {
+                if (TargetSlot.CardDragInstance != null && TargetSlot.CardDragInstance != this)
+                {
+                    TargetSlot.CardDragInstance.Slot = null;
+                    TargetSlot.CardDragInstance.transform.position = BeginDragPosition;
+                    TargetSlot.CardDragInstance = null;
+                }
 
                 if (Slot != null)
                 {

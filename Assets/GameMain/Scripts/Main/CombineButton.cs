@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 using Pangoo.Core.VisualScripting;
 using Pangoo.Core.Common;
 using UnityEditor;
+using MetaTable;
 
 public class CombineButton : BaseImmersed, IPointerEnterHandler, IPointerClickHandler, IPointerExitHandler
 {
@@ -27,12 +28,24 @@ public class CombineButton : BaseImmersed, IPointerEnterHandler, IPointerClickHa
     public void OnPointerClick(PointerEventData eventData)
     {
         Debug.Log($"OnPointerClick Combine");
+        var dynamicObjectUuid1 = string.Empty;
+        var dynamicObjectUuid2 = string.Empty;
+
 
         foreach (var slot in SlotManager.targetSlots)
         {
             if (slot.CheckInstance)
             {
-                Debug.Log($"Check Slot:{slot.name} is True");
+                var index = SlotManager.targetSlots.IndexOf(slot);
+                if (index == 0)
+                {
+                    dynamicObjectUuid1 = slot.CardDragInstance.dynamicObject.Row.Uuid;
+                }
+                if (index == 1)
+                {
+                    dynamicObjectUuid2 = slot.CardDragInstance.dynamicObject.Row.Uuid;
+
+                }
             }
             else
             {
@@ -40,6 +53,12 @@ public class CombineButton : BaseImmersed, IPointerEnterHandler, IPointerClickHa
 
             }
         }
+
+        if (!dynamicObjectUuid1.IsNullOrWhiteSpace() && !dynamicObjectUuid2.IsNullOrWhiteSpace())
+        {
+            dynamicObject.Main.Case.Combine(dynamicObjectUuid1, dynamicObjectUuid2);
+        }
+
         dynamicObject.StartExecuteEvent();
     }
 
