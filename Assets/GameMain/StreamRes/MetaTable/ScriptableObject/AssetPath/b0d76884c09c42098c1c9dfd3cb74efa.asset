@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fed92d2f19b5454e8e09b9b78b0dd9d, type: 3}
+  m_Name: b0d76884c09c42098c1c9dfd3cb74efa
+  m_EditorClassIdentifier: 
+  Row:
+    Uuid: b0d76884c09c42098c1c9dfd3cb74efa
+    Name: "\u7FFB\u8F6C\u6309\u94AE"
+    Id: 0
+    AssetPackageDir: Assets/GameMain
+    AssetType: DynamicObject
+    AssetPath: DO_FanZhuanAnNiu.prefab
+    AssetGroup: 

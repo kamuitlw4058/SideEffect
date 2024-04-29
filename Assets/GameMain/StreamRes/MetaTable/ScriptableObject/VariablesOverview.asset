@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: VariablesOverview
   m_EditorClassIdentifier: 
   Config: {fileID: 11400000, guid: c66de7990ad2b8041be3849139277de1, type: 2}
-  Rows: []
+  Rows:
+  - {fileID: 11400000, guid: 824dcc201fe20044e8c7f8294bfd2ee4, type: 2}

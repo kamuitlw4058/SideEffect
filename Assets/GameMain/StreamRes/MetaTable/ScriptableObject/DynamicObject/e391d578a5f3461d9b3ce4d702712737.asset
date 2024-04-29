@@ -26,7 +26,7 @@ MonoBehaviour:
     DefaultHideHotspot: 0
     HotspotRadius: 0
     HotspotOffset: {x: 0, y: 0, z: 0}
-    DirectInstructions: 
+    DirectInstructions: '[{"Uuid":"20ff627835624bfaa1c7f6052e833027","Name":null,"TriggerType":32,"InitEnabled":true,"DisableOnFinish":false,"DisableInteractOnFinish":false,"DisableHotspotOnFinish":false,"DisableHotspotOnInteract":false,"Filter":null,"ConditionType":1,"UseVariableCondition":true,"ConditionUuids":[],"BoolVariableUuds":["b8191a9710cc4493bfdb744246aeded7"],"IntVariableUuid":null,"UseStringTarget":false,"Targets":[],"StringTargets":[],"TargetProcessType":0,"DirectInstructionList":[{"InstructionType":35,"Uuid":null,"Uuid2":null,"DropdownString1":"Model","String1":null,"String2":null,"ListInt1":null,"Int1":1,"Uuid3":null,"Int2":0,"Bool1":false,"Bool2":false,"Bool3":false,"Bool4":false,"Float1":0.0,"Float2":0.0,"Float3":0.0,"Float4":0.0,"Vector3_1":"0|0|0","Vector3_2":"0|0|0","CursorLockMode1":0,"DriverInfo1":null,"InputMotionType":0,"DynamicObjectHotsoptState":0,"TimelineOperationType":0}],"FailedDirectInstructionList":[{"InstructionType":35,"Uuid":null,"Uuid2":null,"DropdownString1":"Model","String1":null,"String2":null,"ListInt1":null,"Int1":0,"Uuid3":null,"Int2":0,"Bool1":false,"Bool2":false,"Bool3":false,"Bool4":false,"Float1":0.0,"Float2":0.0,"Float3":0.0,"Float4":0.0,"Vector3_1":"0|0|0","Vector3_2":"0|0|0","CursorLockMode1":0,"DriverInfo1":null,"InputMotionType":0,"DynamicObjectHotsoptState":0,"TimelineOperationType":0}],"StateDirectInstructionList":{}}]'
     SubDynamicObject: 
     InteractRadius: 0
     InteractOffset: {x: 0, y: 0, z: 0}

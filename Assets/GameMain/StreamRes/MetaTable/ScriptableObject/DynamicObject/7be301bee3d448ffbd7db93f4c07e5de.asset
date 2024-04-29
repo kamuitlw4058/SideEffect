@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2dc1ec217d99e5e449d07113e6b2bcde, type: 3}
+  m_Name: 7be301bee3d448ffbd7db93f4c07e5de
+  m_EditorClassIdentifier: 
+  Row:
+    Uuid: 7be301bee3d448ffbd7db93f4c07e5de
+    Name: "\u7FFB\u8F6C\u6309\u94AE"
+    Id: 0
+    NameCn: 
+    ModelList: 
+    Space: 
+    Position: {x: 1.814, y: 4.478, z: 1.11}
+    Rotation: {x: -0, y: 0, z: 0}
+    Scale: {x: 1, y: 1, z: 1}
+    UseHotspot: 0
+    DefaultHideHotspot: 0
+    HotspotRadius: 0
+    HotspotOffset: {x: 0, y: 0, z: 0}
+    DirectInstructions: "[{\"Uuid\":\"71274b760dfd4f3c94ce0da56bede5a3\",\"Name\":null,\"TriggerType\":13,\"InitEnabled\":true,\"DisableOnFinish\":false,\"DisableInteractOnFinish\":false,\"DisableHotspotOnFinish\":false,\"DisableHotspotOnInteract\":false,\"Filter\":null,\"ConditionType\":1,\"UseVariableCondition\":true,\"ConditionUuids\":[],\"BoolVariableUuds\":[\"b8191a9710cc4493bfdb744246aeded7\"],\"IntVariableUuid\":null,\"UseStringTarget\":false,\"Targets\":[],\"StringTargets\":[],\"TargetProcessType\":0,\"DirectInstructionList\":[{\"InstructionType\":12,\"Uuid\":null,\"Uuid2\":null,\"DropdownString1\":null,\"String1\":\"\u7FFB\u8F6C\u5230\u6B63\u9762\",\"String2\":null,\"ListInt1\":null,\"Int1\":0,\"Uuid3\":null,\"Int2\":0,\"Bool1\":false,\"Bool2\":false,\"Bool3\":false,\"Bool4\":false,\"Float1\":1.0,\"Float2\":0.0,\"Float3\":0.0,\"Float4\":0.0,\"Vector3_1\":\"0|0|0\",\"Vector3_2\":\"0|0|0\",\"CursorLockMode1\":0,\"DriverInfo1\":null,\"InputMotionType\":0,\"DynamicObjectHotsoptState\":0,\"TimelineOperationType\":0},{\"InstructionType\":3,\"Uuid\":\"b8191a9710cc4493bfdb744246aeded7\",\"Uuid2\":null,\"DropdownString1\":null,\"String1\":null,\"String2\":null,\"ListInt1\":null,\"Int1\":0,\"Uuid3\":null,\"Int2\":0,\"Bool1\":false,\"Bool2\":false,\"Bool3\":false,\"Bool4\":false,\"Float1\":0.0,\"Float2\":0.0,\"Float3\":0.0,\"Float4\":0.0,\"Vector3_1\":\"0|0|0\",\"Vector3_2\":\"0|0|0\",\"CursorLockMode1\":0,\"DriverInfo1\":null,\"InputMotionType\":0,\"DynamicObjectHotsoptState\":0,\"TimelineOperationType\":0}],\"FailedDirectInstructionList\":[{\"InstructionType\":12,\"Uuid\":null,\"Uuid2\":null,\"DropdownString1\":null,\"String1\":\"\u7FFB\u8F6C\u5230\u80CC\u9762\",\"String2\":null,\"ListInt1\":null,\"Int1\":0,\"Uuid3\":null,\"Int2\":0,\"Bool1\":false,\"Bool2\":false,\"Bool3\":false,\"Bool4\":false,\"Float1\":1.0,\"Float2\":0.0,\"Float3\":0.0,\"Float4\":0.0,\"Vector3_1\":\"0|0|0\",\"Vector3_2\":\"0|0|0\",\"CursorLockMode1\":0,\"DriverInfo1\":null,\"InputMotionType\":0,\"DynamicObjectHotsoptState\":0,\"TimelineOperationType\":0},{\"InstructionType\":3,\"Uuid\":\"b8191a9710cc4493bfdb744246aeded7\",\"Uuid2\":null,\"DropdownString1\":null,\"String1\":null,\"String2\":null,\"ListInt1\":null,\"Int1\":0,\"Uuid3\":null,\"Int2\":0,\"Bool1\":true,\"Bool2\":false,\"Bool3\":false,\"Bool4\":false,\"Float1\":0.0,\"Float2\":0.0,\"Float3\":0.0,\"Float4\":0.0,\"Vector3_1\":\"0|0|0\",\"Vector3_2\":\"0|0|0\",\"CursorLockMode1\":0,\"DriverInfo1\":null,\"InputMotionType\":0,\"DynamicObjectHotsoptState\":0,\"TimelineOperationType\":0}],\"StateDirectInstructionList\":{}}]"
+    SubDynamicObject: 
+    InteractRadius: 0
+    InteractOffset: {x: 0, y: 0, z: 0}
+    InteractRadian: 0
+    InteractTarget: Self
+    DefaultHideModel: 0
+    AssetPathUuid: b0d76884c09c42098c1c9dfd3cb74efa
+    DefaultDisableInteract: 0
+    TriggerEventUuids: 
+    HotspotUuids: 
+    PreviewName: 
+    PreviewDesc: 
+    StateSubDynamicObject: 
+    StateVariableUuid: Default
+    PreviewRotation: {x: 0, y: 0, z: 0}
+    PreviewScale: {x: 0, y: 0, z: 0}
+    SubObjectTriggerList: 
+    MouseInteractList: 
+    ColliderTriggerStayTimeout: 0
+    ColliderTriggerStayExitDelay: 0
+    TimelineHelperList: 
+    ColliderTriggerType: 
+    ColliderTriggerManualList: 
+    PreviewRotationUp: {x: 0, y: 0, z: 0}
