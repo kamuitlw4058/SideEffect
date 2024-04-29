@@ -16,8 +16,8 @@ MonoBehaviour:
     Uuid: 4c7b560513974bb0ad93f8b7c0ddfcb4
     Name: "\u662F\u5426\u5DF2\u7ECF\u521B\u5EFA"
     Id: 0
-    VariableType: Global
+    VariableType: DynamicObject
     Key: IsCreated
     ValueType: Bool
-    DefaultValue: 
+    DefaultValue: False
     NotSave: 0

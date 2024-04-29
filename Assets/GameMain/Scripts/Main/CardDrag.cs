@@ -49,10 +49,12 @@ public class CardDrag : BaseImmersed, IPointerEnterHandler, IPointerClickHandler
         }
     }
 
+    public bool IsDraging;
+
     // Update is called once per frame
     void Update()
     {
-        if (Has)
+        if (Has && !IsDraging)
         {
             cardRigidbody.isKinematic = false;
         }
@@ -98,10 +100,8 @@ public class CardDrag : BaseImmersed, IPointerEnterHandler, IPointerClickHandler
     public void OnBeginDrag(PointerEventData eventData)
     {
         Debug.Log($"OnBeginDrag");
-        if (cardRigidbody != null)
-        {
-            cardRigidbody.isKinematic = true;
-        }
+        IsDraging = true;
+        gameObject.layer = LayerMask.NameToLayer("Drag");
     }
 
 
@@ -122,6 +122,7 @@ public class CardDrag : BaseImmersed, IPointerEnterHandler, IPointerClickHandler
 
     public void OnEndDrag(PointerEventData eventData)
     {
+
         Debug.Log($"OnEndDrag");
         if (Target != null)
         {
@@ -145,12 +146,8 @@ public class CardDrag : BaseImmersed, IPointerEnterHandler, IPointerClickHandler
                 Slot.CardDragInstance = null;
             }
         }
-
-        if (cardRigidbody != null)
-        {
-            cardRigidbody.isKinematic = false;
-        }
-
+        gameObject.layer = LayerMask.NameToLayer("Card");
+        IsDraging = false;
 
     }
 }
