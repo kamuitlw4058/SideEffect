@@ -13,4 +13,5 @@ MonoBehaviour:
   m_Name: CasesOverview
   m_EditorClassIdentifier: 
   Config: {fileID: 11400000, guid: c66de7990ad2b8041be3849139277de1, type: 2}
-  Rows: []
+  Rows:
+  - {fileID: 11400000, guid: 2e189839ba769b44381c674868a2f649, type: 2}

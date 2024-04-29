@@ -13,4 +13,7 @@ MonoBehaviour:
   m_Name: ClueOverview
   m_EditorClassIdentifier: 
   Config: {fileID: 11400000, guid: c66de7990ad2b8041be3849139277de1, type: 2}
-  Rows: []
+  Rows:
+  - {fileID: 11400000, guid: 39cee4f0be57c2a478efb781b4323633, type: 2}
+  - {fileID: 11400000, guid: 7d0e05693a3e83d408c3f397c3e2c502, type: 2}
+  - {fileID: 11400000, guid: 3cc1fb2f21bfd4844bc3be850bd0405f, type: 2}

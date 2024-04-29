@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 22b2fa4a664abfb42a1a0f83cdda2f37, type: 3}
+  m_Name: eaba77968ba34a7f8d36ff5be8760d33
+  m_EditorClassIdentifier: 
+  Row:
+    Uuid: eaba77968ba34a7f8d36ff5be8760d33
+    Name: "\u6253\u5F00\u5408\u6210\u4E3BUI"
+    Id: 0
+    InstructionType: Pangoo.Core.VisualScripting.InstructionUICase
+    Params: '{"CaseUuid":"1e428ca3cefe49d5a2bf2fbbb5a447e5","WaitClosed":false}'

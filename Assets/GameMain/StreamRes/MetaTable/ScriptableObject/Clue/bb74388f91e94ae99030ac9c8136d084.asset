@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86f74d67c14859844baabb0df1dca5a2, type: 3}
+  m_Name: bb74388f91e94ae99030ac9c8136d084
+  m_EditorClassIdentifier: 
+  Row:
+    Uuid: bb74388f91e94ae99030ac9c8136d084
+    Name: "\u5361\u724C1"
+    Id: 0
+    DynamicObjectUuid: 1dda32ff1acd44e18ebe71f88b6d19e8
+    ClueTitle: "\u5361\u724C1"
+    Desc: 
+    ClueKey: 

@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 using Pangoo.Core.VisualScripting;
 using Pangoo.Core.Common;
 using UnityEditor;
+using Sirenix.OdinInspector;
 
 public class CardDrag : BaseImmersed, IPointerEnterHandler, IPointerClickHandler, IPointerExitHandler, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
@@ -27,10 +28,38 @@ public class CardDrag : BaseImmersed, IPointerEnterHandler, IPointerClickHandler
 
     }
 
+    string CaseClueHasVariable;
+
+    [ShowInInspector]
+    public bool Has
+    {
+        get
+        {
+            if (CaseClueHasVariable == null)
+            {
+                CaseClueHasVariable = dynamicObject.Main.GameConfig.GameMainConfig.CaseClueHasVariable;
+            }
+
+            if (CaseClueHasVariable != null && dynamicObject != null)
+            {
+                return dynamicObject.GetVariable<bool>(CaseClueHasVariable);
+            }
+
+            return false;
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
-
+        if (Has)
+        {
+            cardRigidbody.isKinematic = false;
+        }
+        else
+        {
+            cardRigidbody.isKinematic = true;
+        }
     }
 
     public void OnPointerEnter(PointerEventData eventData)

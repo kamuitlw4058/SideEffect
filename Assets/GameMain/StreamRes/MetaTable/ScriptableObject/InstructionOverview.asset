@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f217b2773e7f644cb42abafcb54e53e, type: 3}
-  m_Name: SimpleUIOverview
+  m_Script: {fileID: 11500000, guid: 55f0f901471165e4b8c798f389dd4023, type: 3}
+  m_Name: InstructionOverview
   m_EditorClassIdentifier: 
   Config: {fileID: 11400000, guid: c66de7990ad2b8041be3849139277de1, type: 2}
   Rows:
-  - {fileID: 11400000, guid: a0e794c2908dead4d90054d5d4dcc875, type: 2}
-  - {fileID: 11400000, guid: 2303f10d7c953144fb1e530bd2098a55, type: 2}
+  - {fileID: 11400000, guid: d534ad7e8ca12fc4393e73d086bce0f4, type: 2}
