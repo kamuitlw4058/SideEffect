@@ -67,6 +67,7 @@ public class CardDrag : BaseImmersed, IPointerEnterHandler, IPointerClickHandler
     public void OnPointerEnter(PointerEventData eventData)
     {
         Debug.Log($"OnPointerEnter");
+        dynamicObject.Main.Case.ShowClueInfo(dynamicObject.Row.Uuid);
     }
 
     public void OnPointerClick(PointerEventData eventData)
@@ -77,6 +78,8 @@ public class CardDrag : BaseImmersed, IPointerEnterHandler, IPointerClickHandler
     public void OnPointerExit(PointerEventData eventData)
     {
         Debug.Log($"OnPointerExit");
+        dynamicObject.Main.Case.HideClueInfo();
+
     }
 
 

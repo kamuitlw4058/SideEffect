@@ -46,6 +46,7 @@ MonoBehaviour:
   DefaultPreviewIntVariable: 
   DefaultPreviewExitVariable: 
   DebuggerInstructions: []
+  IsFlipVariable: b8191a9710cc4493bfdb744246aeded7
   CaseClueHasVariable: 4c7b560513974bb0ad93f8b7c0ddfcb4
   CaseClueIsRemovedVariable: 2ad5d4e9a94849cbbb0f8444c3dac822
   InitUnloadScene: 1

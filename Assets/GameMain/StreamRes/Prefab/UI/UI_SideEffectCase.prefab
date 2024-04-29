@@ -491,7 +491,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6235060756686020263}
   - component: {fileID: 6235060756686020257}
-  - component: {fileID: 2851486863639987879}
+  - component: {fileID: 3691773871487869711}
   m_Layer: 0
   m_Name: UI_SideEffectCase
   m_TagString: Untagged
@@ -531,7 +531,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6235060756686020260}
   m_CullTransparentMesh: 1
---- !u!114 &2851486863639987879
+--- !u!114 &3691773871487869711
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -540,7 +540,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6235060756686020260}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb8c2208c01ce09499dee1eecb652a4d, type: 3}
+  m_Script: {fileID: 11500000, guid: 31f9919530a84e347a936525afa04c7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Text: {fileID: 0}
@@ -555,5 +555,5 @@ MonoBehaviour:
   Distance: 0.2
   TargetRect: {fileID: 0}
   CluesListRect: {fileID: 0}
-  CluePrefab: {fileID: 3666964815854520798, guid: 0fc2dfec091cb2247a1f2d7677c66a1f, type: 3}
-  SelectDistanceDelta: 0.001
+  CluePrefab: {fileID: 0}
+  SelectDistanceDelta: 0.01

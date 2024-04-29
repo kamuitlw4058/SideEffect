@@ -18,5 +18,7 @@ MonoBehaviour:
     Id: 0
     DynamicObjectUuid: e391d578a5f3461d9b3ce4d702712737
     ClueTitle: "\u5361\u724C2"
-    Desc: 
+    Desc: "\u5361\u724C2 \u63CF\u8FF0"
     ClueKey: 
+    ClueBackTitle: "\u5361\u724C2 \u80CC\u9762"
+    ClueBackDesc: "\u5361\u724C2 \u80CC\u9762\u63CF\u8FF0"
